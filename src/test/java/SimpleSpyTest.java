@@ -28,7 +28,5 @@ public class SimpleSpyTest {
         verify(spy).add("two");
 
         assertThat(spy.size()).isEqualTo(100);
-
-        //optionally, you can verify
     }
 }
